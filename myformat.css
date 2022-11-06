@@ -1,0 +1,380 @@
+body {
+    font: 400 17px 'Play', sans-serif;
+    line-height: 1.8em;
+    color: #262626;
+    background-color: #f0f6fd;
+}
+
+p, h2, h4 {
+    letter-spacing: 1px;
+}
+
+.width80 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    color: #b382da ;
+}
+
+h2 {
+    font-family: 'Play', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #262626;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #4a4e69;
+    font-weight: bold;
+}
+
+h4 {
+    font: 600 25px 'Play', sans-serif;
+    line-height: 1.375em;
+    color: #262626;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.panel-heading>h4 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.panel-heading>h1 {
+    color: #fff !important;
+}
+
+.jumbotron {
+    background: #fff url("images/bg.png") no-repeat center center;
+    background-size: 100%;
+    color: #1d1d2d;
+    padding: 200px 25px 200px 25px;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.section-border {
+    border-bottom: 5px double #9a8c98;
+}
+
+.logo-small {
+    color: #b382da;
+    font-size: 50px;
+}
+
+.logo {
+    color: #b382da;
+    font-size: 200px;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.caption {
+    color: #aaa;
+    text-align: center;
+}
+
+.list-section {
+    text-decoration: underline #9a8c98 2px;
+    text-underline-offset: 5px;
+}
+
+.numbering {
+    width: 5%;
+    padding-right: 5px;
+}
+
+.downloads a {
+    color: #262626;
+}
+
+.downloads a:hover {
+    color: #8abbff;
+    text-decoration: none;
+}
+
+.w70 {
+    width: 70%;
+    padding-right: 5px;
+}
+
+.w45 {
+    width: 45%;
+    padding-right: 5px;
+}
+
+.w10 {
+    width: 10%;
+}
+
+
+.leftimg {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.rightimg {
+    width: 300px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.panelimg {
+    width: 100%;
+    height: 250px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.nav-tabs li a {
+    font-weight: 700;
+    margin: 0px;
+    border: 1px solid #d7defc !important;
+    color: #262626;
+}
+
+.nav-tabs li a:hover {
+    background-color: #d7defc;
+}
+
+.nav-tabs li.active a {
+    background-color: #d7defc !important;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #4a4e69;
+}
+
+.carousel-indicators li {
+    border-color: none;
+}
+
+.carousel-indicators li.active {
+    background-color: #4a4e69;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+.item img {
+    max-width: 600px !important;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.panel {
+    border: 0 solid #b382da;
+    border-radius: 5px !important;
+    color: #4a4e69;
+}
+
+.panel ul {
+    list-style-type: none;
+    line-height: 2em;
+    letter-spacing: 1px;
+}
+
+.panel ul li::before, .dot-listing li::before {
+    font-family: "Material icons";
+    content: "\ef4a";
+    color: #92aae8;
+    font-size: 10px;
+    display: inline-block;
+    font-weight: bold;
+    width: 2em;
+    margin-left: -2em;
+    position: relative;
+    top: 5px;
+}
+
+.dot-listing li {
+    list-style: none;
+}
+
+.panel-footer .btn:hover {
+    background-color: #4a4e69 !important;
+    color: #f2e9e4;
+}
+
+.panel-heading {
+    background-color: #d7defc !important;
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.panel-heading>h2 {
+    font: 600 20px 'Play', sans-serif;
+    color: #fff;
+}
+
+h4 a:link {
+    text-decoration-line: none;
+}
+
+.panel-footer {
+    background-color: white !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f2e9e4;
+    color: #4a4e69;
+}
+
+/*네비게이션 기본*/
+.navbar {
+    margin-bottom: 0;
+    background-color: #b7c4e4;
+    z-index: 9999;
+    border: 0;
+    font-size: 20px !important;
+    font-weight: 600;
+    line-height: 1.42857143 !important;
+    border-radius: 0;
+    font-family: 'Play', sans-serif;
+}
+
+.original {
+    position: relative;
+    top: -7px;
+}
+
+/*네비게이션 항목 링크 글자색, 네이게이션 로고 부분 글자색*/
+.navbar li a, .navbar .navbar-brand {
+    font-size: 20px !important;
+    color: #262626 !important;
+    font-weight: 600;
+}
+
+/*네비게이션 항목에 마우스 올렸을 때 글자색, 네비게이션 항목 중에 액티브 상태인 링크 글자색*/
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f2e9e4 !important;
+    background-color: #4a4e69 !important;
+}
+
+/*네비게이션 기본 + 화면 줄였을 때 토글 되는 거*/
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #f2e9e4 !important;
+}
+
+/*드롭다운 메뉴 배경색, 없을 경우 하얀색 고정, 글씨 안보임*/
+.dropdown-menu {
+    background-color: #DEECFF;
+    padding: 0;
+}
+
+.dropdown-menu li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown-menu li.active a {
+    background-color: #4a4e69;
+    color: #DEECFF;
+}
+
+.tab-content {
+    background-color: #fff;
+}
+
+.tab-pane {
+    width: 80%;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    color: #4a4e69;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #b382da;
+}
+
+.slideanim {
+    visibility: hidden;
+}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+.material-icons.md-80 {
+    font-size: 80px;
+    color: #b8abb6;
+}
+
+#task3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#task4 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
